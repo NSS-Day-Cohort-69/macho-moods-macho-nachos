@@ -1,2 +1,19 @@
+import { getDatabase } from "./database.js";
+import {moodsList} from "./moods.js"
 
-const container = document.querySelector('.container')
+
+
+
+const allMoods = getDatabase() 
+for (const mood of allMoods) {
+    console.log(mood)
+}
+
+const moodsHTML = moodsList()
+
+
+
+
+
+const container = document.querySelector('#container')
+container.innerHTML=moodsHTML
