@@ -1,0 +1,53 @@
+#container {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* padding: 10px; */
+
+}
+
+header,
+p {
+    text-align: center;
+}
+
+img {
+    width: 30%;
+    justify-content: center;
+}
+
+.mood {
+    border: 1px solid grey;
+    flex-basis: 30%;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 10px;
+
+
+}
+
+.quote {
+    font-family: 'Baumans', system-ui;
+    display: flex;
+    margin: auto;
+}
+
+.first-mood {
+    color: #FFB84C;
+    font-weight: bold;
+    font-size: x-large;
+
+}
+
+.quote {
+    color: #F266AB
+}
+
+body {
+    background-color: #2CD3E1
+}
+
+.advice {
+    text-align: left;
+}

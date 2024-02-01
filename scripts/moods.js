@@ -1,11 +1,13 @@
 import { getDatabase } from "./database.js";
 export const moodsList = () => {
-    const mood = getDatabase ()
+    const mood = getDatabase()
     let htmlString = ''
 
     for (const moods of mood) {
         htmlString += `<div class="mood">
         <div class="first-mood"> ${moods.name}</div>
+        <img src="${moods.imageUrl}" alt="${moods.text}"/>
+        <div class="quote">  <div class="advice">Macho Advice:</div> ${moods.quotes}</div>
         </div>`
     }
     return htmlString
