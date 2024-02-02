@@ -7,47 +7,74 @@
 
 }
 
-header,
-p {
+header {
+    font-family: 'Chango', sans-serif;
     text-align: center;
+    font-size: xx-large;
 }
 
+p {
+    font-family: 'Chango', sans-serif;
+    text-align: center;
+    font-style: italic;
+}
+
+
 img {
-    width: 30%;
+    width: 40%;
     justify-content: center;
 }
 
 .mood {
     border: 1px solid grey;
+    background-color: #77D970;
     flex-basis: 30%;
     text-align: center;
     margin-bottom: 10px;
     padding: 10px;
+    border-radius: 5px;
+    box-shadow: 3px 5px black;
 
 
 }
 
 .quote {
     font-family: 'Baumans', system-ui;
-    display: flex;
     margin: auto;
+    color: #FF0075;
+    display: flex;
+    /* flex-direction: column; */
 }
 
 .first-mood {
-    color: #FFB84C;
+    font-family: 'Chango', system-ui;
+    color: #172774;
     font-weight: bold;
     font-size: x-large;
 
 }
 
-.quote {
-    color: #F266AB
+body {
+    background-color: beige;
 }
 
-body {
-    background-color: #2CD3E1
+
+
+.advice-quotes {
+    display: flex;
+    /* flex-direction: column; */
+
+
 }
 
 .advice {
-    text-align: left;
+    font-family: 'Chango', system-ui;
+
+}
+
+
+
+.vertical {
+    display: flex;
+    flex-direction: column;
 }
