@@ -45,8 +45,8 @@ const database = [
         imageUrl: 'assets/hungry.jpeg',
         text: "Snap into a slim jim!",
         quotes: [
-            "Cheat meals sound like a treat when you have been working hard all week.",
-            "I always like to keep my favorite snack handy. Need a little excitement? Snap into a Slim Jim!"
+            "Cheat meals sound like a treat when you have been working hard all week. \n",
+            "\nI always like to keep my favorite snack handy. Need a little excitement? Snap into a Slim Jim!"
         ]
     },
     {
